@@ -20,3 +20,16 @@ p {
 button:hover {
     background-color: lightgreen;
 }
+
+#logo {
+    font-family: 'orelega one', cursive;
+    font-size: 200%;
+    right: 50%;
+    background-color: darkgreen;
+    height: auto;
+    width: 100%;
+    text-align: center;
+    text-shadow: 2px 2px 5px white;
+    letter-spacing: 4px;
+    border-bottom: black 2px solid;
+}
