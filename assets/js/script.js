@@ -27,13 +27,13 @@ function runGame() {
     return Math.floor(Math.random() * 10) + 1;
 }
 
-var pCards = runGame();
-var cCards = runGame();
 
-document.getElementById("computer-card-number").innerHTML = pCards;
-document.getElementById("player-card-number").innerHTML = cCards;
+
+document.getElementById("computer-card-number").innerHTML = runGame();
+document.getElementById("player-card-number").innerHTML = runGame();
 
 function displayCardNumber() {
+
 
 
 }
@@ -46,7 +46,8 @@ function howToPlay() {
 
 }
 
-function countCards() {
+function countCards(runGame) {
+
 
 }
 
