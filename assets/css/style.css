@@ -107,3 +107,12 @@ button:hover {
     height: auto;
     font-size: 125%;
 }
+
+#scores {
+    background-color: beige;
+    border: black 4px solid;
+    font-family: 'kanit', sans-serif;
+    font-weight: 900;
+    padding: 5px;
+    margin: 0 10px;
+}
