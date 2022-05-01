@@ -24,9 +24,23 @@ var playerTotal = 0;
 var computerTotal = 0;
 let cards = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
-window.onload = function () {
+document.onload = function () {
     shuffleCards();
+
 }
+
+function shuffleCards() {
+    for (let i = cards.length; i > 0; i--) {
+        let j = Math.floor(Math.random() * (i + 1));
+        let temp = cards[i];
+        cards[i] = cards[j];
+        cards[j] = temp;
+    }
+    return cards;
+}
+console.log(cards);
+
+
 
 
 
