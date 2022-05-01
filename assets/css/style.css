@@ -78,3 +78,9 @@ button:hover {
     justify-content: center;
     align-items: center;
 }
+
+.new-number {
+    font-family: 'arimo', sans-serif;
+    font-size: 200%;
+    font-weight: 900;
+}
