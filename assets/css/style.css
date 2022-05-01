@@ -38,6 +38,8 @@ button:hover {
     padding-top: 10px;
 }
 
+/* come back to once game logic is sorted
+
 #input-name {
     border: black 4px solid;
     font-size: 200%;
@@ -74,9 +76,14 @@ button:hover {
     background-color: lightgreen;
 }
 
+
+
 #twenty1 {
+
     display: none;
+    
 }
+*/
 
 #playing-area {
     margin: 10px;
