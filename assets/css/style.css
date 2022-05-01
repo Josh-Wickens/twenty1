@@ -38,6 +38,46 @@ button:hover {
     padding-top: 10px;
 }
 
+#input-name {
+    border: black 4px solid;
+    font-size: 200%;
+    justify-content: center;
+    font-weight: 400;
+    width: auto;
+    background-color: beige;
+    margin-top: 50px;
+    align-self: center;
+    flex-direction: column;
+}
+
+#input-name input {
+    width: 300px;
+    height: auto;
+    font-size: 125%;
+    align-items: center;
+
+}
+
+#submit-button {
+    margin-top: 20px;
+    align-self: center;
+    border: black 4px solid;
+
+}
+
+#submit {
+    font-size: 150%;
+    padding: 5px;
+}
+
+#submit:hover {
+    background-color: lightgreen;
+}
+
+#twenty1 {
+    display: none;
+}
+
 #playing-area {
     margin: 10px;
     width: auto;
