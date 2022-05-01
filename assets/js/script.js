@@ -20,38 +20,42 @@ function insertName() {
 */
 
 
-let playerTotal = [];
-let computerTotal = [];
+var playerTotal = 0;
+var computerTotal = 0;
+let cards = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
-function runGame() {
+window.onload = function () {
+    shuffleCards();
+}
+
+
+
+function computerDrawCard(computerCard) {
     return Math.floor(Math.random() * 10) + 1;
-}
-
-
-
-document.getElementById("computer-card-number").innerHTML = runGame();
-document.getElementById("player-card-number").innerHTML = runGame();
-
-function displayCardNumber() {
-
-
 
 }
 
-{
+function playerDrawCard(playerCard) {
+    return Math.floor(Math.random() * 10) + 1;
 
 }
 
-function howToPlay() {
 
-}
+document.getElementById("computer-card-number").innerHTML = computerDrawCard();
+countCards();
+document.getElementById("player-card-number").innerHTML = playerDrawCard();
+countCards();
 
-function countCards(runGame) {
+
+
+function countCards() {
+
 
 
 }
 
 function hit() {
+
 
 }
 
@@ -84,5 +88,9 @@ function loseGame() {
 }
 
 function winGame() {
+
+}
+
+function howToPlay() {
 
 }
