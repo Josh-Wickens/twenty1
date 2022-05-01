@@ -10,22 +10,31 @@ document.addEventListener("DOMContentLoaded", function () {
 
 */
 
+
+
+
+/*
 function insertName() {
 
 }
+*/
 
+
+let playerTotal = [];
+let computerTotal = [];
 
 function runGame() {
-    let num1 = Math.floor(Math.random() * 10) + 1;
-    let num2 = Math.floor(Math.random() * 10) + 1;
-
+    return Math.floor(Math.random() * 10) + 1;
 }
 
-runGame();
+var pCards = runGame();
+var cCards = runGame();
+
+document.getElementById("computer-card-number").innerHTML = pCards;
+document.getElementById("player-card-number").innerHTML = cCards;
 
 function displayCardNumber() {
-    document.getElementById("computer-card-number").innerHTML = num1;
-    document.getElementById("player-card-number").innerHTML = num2;
+
 
 }
 
