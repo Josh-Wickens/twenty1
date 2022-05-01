@@ -61,3 +61,20 @@ button:hover {
     text-align: center;
     font-weight: 900;
 }
+
+.card-total {
+    border: black solid 2px;
+    padding: 0 5px;
+    background-color: beige;
+}
+
+.card {
+    background-color: beige;
+    width: 125px;
+    height: 200px;
+    border: black 4px solid;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
