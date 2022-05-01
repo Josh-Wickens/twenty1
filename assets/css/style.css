@@ -84,3 +84,16 @@ button:hover {
     font-size: 200%;
     font-weight: 900;
 }
+
+#below-game-area {
+    display: flex;
+}
+
+#button-area {
+    width: 50%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
