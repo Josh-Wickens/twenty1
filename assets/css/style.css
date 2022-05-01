@@ -1,1 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Arimo:wght@600&family=Bebas+Neue&family=Kanit:wght@300&family=Orelega+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    font-size: 150%;
+    font-weight: 400;
+}
