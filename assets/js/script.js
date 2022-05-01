@@ -22,23 +22,19 @@ function insertName() {
 
 var playerTotal = 0;
 var computerTotal = 0;
-let cards = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-
-document.onload = function () {
-    shuffleCards();
-
-}
+var cards = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
 function shuffleCards() {
-    for (let i = cards.length; i > 0; i--) {
-        let j = Math.floor(Math.random() * (i + 1));
-        let temp = cards[i];
-        cards[i] = cards[j];
-        cards[j] = temp;
+    let newPos, temp;
+    for (let i = cards.length - 1; i > 0; i--) {
+        newPos = Math.floor(Math.random() * (i + 1));
+        temp = cards[i];
+        cards[i] = cards[newPos];
+        cards[newPos] = temp;
     }
     return cards;
 }
-console.log(cards);
+
 
 
 
