@@ -116,3 +116,20 @@ button:hover {
     padding: 5px;
     margin: 0 10px;
 }
+
+#how-to-play {
+    height: auto;
+    width: auto;
+    flex-direction: column;
+    margin: 20px;
+    padding: 20px;
+    font-family: 'bebas neue', sans-serif;
+    align-items: center;
+    justify-content: center;
+    background-color: beige;
+    border: black 4px solid;
+    text-align: center;
+    font-size: 200%;
+    /* display will be none until player clicks the how to pay button */
+    display: none;
+}
