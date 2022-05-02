@@ -42,6 +42,10 @@ console.log(cards);
 function playGame(event) {
     shuffleCards();
     console.log(cards);
+    compCard = cards.pop();
+    playCard = cards.pop();
+    playCard = cards.pop();
+
 }
 
 
@@ -74,8 +78,8 @@ function countCards() {
 
 function hit() {
 
-
 }
+
 
 function stick() {
 
