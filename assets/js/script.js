@@ -19,6 +19,8 @@ function insertName() {
 }
 */
 
+let playGameBtn = document.getElementById("play-button");
+playGameBtn.addEventListener("click", playGame);
 
 var playerTotal = 0;
 var computerTotal = 0;
@@ -34,18 +36,24 @@ function shuffleCards() {
     }
     return cards;
 }
+console.log(cards);
+
+
+function playGame(event) {
+    shuffleCards();
+    console.log(cards);
+}
 
 
 
 
 
-
-function computerDrawCard(computerCard) {
+function computerDrawCard() {
     return Math.floor(Math.random() * 10) + 1;
 
 }
 
-function playerDrawCard(playerCard) {
+function playerDrawCard() {
     return Math.floor(Math.random() * 10) + 1;
 
 }
